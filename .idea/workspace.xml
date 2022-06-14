@@ -9,14 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69ec4546-9d79-41c4-9d85-0035e78eb781" name="Changes" comment="how-to-setup.md add">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/makeev/springmvc/config/MySpringMVCDispatcherServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/makeev/springmvc/config/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="69ec4546-9d79-41c4-9d85-0035e78eb781" name="Changes" comment="before delete xml">
       <change beforePath="$PROJECT_DIR$/how-to-setup.md" beforeDir="false" afterPath="$PROJECT_DIR$/how-to-setup.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContextMVC.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +175,7 @@
       <updated>1655210226259</updated>
       <workItem from="1655210227656" duration="1278000" />
       <workItem from="1655211710017" duration="3031000" />
-      <workItem from="1655223173180" duration="4974000" />
+      <workItem from="1655223173180" duration="5321000" />
     </task>
     <task id="LOCAL-00001" summary="tomcat">
       <created>1655211678785</created>
@@ -202,7 +198,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655225013122</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="before delete xml">
+      <created>1655235220752</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655235220752</updated>
+    </task>
+    <task id="LOCAL-00005" summary="before delete xml">
+      <created>1655235228239</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655235228239</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +233,7 @@
     <MESSAGE value="tomcat" />
     <MESSAGE value="lesson15 done: HelloController xml" />
     <MESSAGE value="how-to-setup.md add" />
-    <option name="LAST_COMMIT_MESSAGE" value="how-to-setup.md add" />
+    <MESSAGE value="before delete xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="before delete xml" />
   </component>
 </project>
