@@ -160,3 +160,8 @@ create `WEB-INF/views/helloPage.html`
 </html>
 ```
 - call `localhost:8080/hello-world`
+
+## java config version
+
+- create `src/main/java/com.makeev.springmvc/config`
+- 

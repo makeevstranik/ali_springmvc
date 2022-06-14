@@ -9,9 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69ec4546-9d79-41c4-9d85-0035e78eb781" name="Changes" comment="lesson15 done: HelloController xml">
-      <change afterPath="$PROJECT_DIR$/how-to-setup.md" afterDir="false" />
+    <list default="true" id="69ec4546-9d79-41c4-9d85-0035e78eb781" name="Changes" comment="how-to-setup.md add">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/makeev/springmvc/config/MySpringMVCDispatcherServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/makeev/springmvc/config/SpringConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/how-to-setup.md" beforeDir="false" afterPath="$PROJECT_DIR$/how-to-setup.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,12 +26,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
@@ -50,11 +60,17 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "nodejs_package_manager_path": "npm",
     "spring.configuration.checksum": "f578263d244d3d683c45830f33d2a8b2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.makeev.springmvc.config" />
+    </key>
+  </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat_9_0_64">
     <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
@@ -163,7 +179,7 @@
       <updated>1655210226259</updated>
       <workItem from="1655210227656" duration="1278000" />
       <workItem from="1655211710017" duration="3031000" />
-      <workItem from="1655223173180" duration="1714000" />
+      <workItem from="1655223173180" duration="4974000" />
     </task>
     <task id="LOCAL-00001" summary="tomcat">
       <created>1655211678785</created>
@@ -179,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655215758010</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="how-to-setup.md add">
+      <created>1655225013122</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655225013122</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +222,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="tomcat" />
     <MESSAGE value="lesson15 done: HelloController xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson15 done: HelloController xml" />
+    <MESSAGE value="how-to-setup.md add" />
+    <option name="LAST_COMMIT_MESSAGE" value="how-to-setup.md add" />
   </component>
 </project>
