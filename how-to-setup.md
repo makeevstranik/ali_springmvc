@@ -127,6 +127,7 @@
 ```
 - create package `src/main/java/com.makeev.springmvc`
 - create controller
+
 ```java
 package com.makeev.springmvc;
 
@@ -135,10 +136,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class HelloController {
-    @GetMapping("/hello-world")
-    public String sayHello() {
-        return "helloPage";
-    }
+  @GetMapping("/hello-world")
+  public String sayHello() {
+    return "/startHelloPage";
+  }
 }
 ```
 create `WEB-INF/views/helloPage.html`

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+<body>
+<h1>Calculation</h1>
+<table>
+    <colgroup>
+        <col span="2" style="background:Khaki"><!-- С помощью этой конструкции задаем цвет фона для первых двух столбцов таблицы-->
+        <col style="background-color:LightCyan"><!-- Задаем цвет фона для следующего (одного) столбца таблицы-->
+    </colgroup>
+    <tr>
+        <th>num</th>
+        <th>Description</th>
+        <th>Value</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Your operand: </td>
+        <td data-th-text="${operand}">no value</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td >Your left number: </td>
+        <td data-th-text="${left}">no value</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Your right number:</td>
+        <td data-th-text="${right}">no value</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Answer:</td>
+        <td data-th-text="${result}">no value</td>
+    </tr>
+</table>
+</body>
+</html>

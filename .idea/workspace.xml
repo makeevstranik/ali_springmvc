@@ -10,9 +10,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69ec4546-9d79-41c4-9d85-0035e78eb781" name="Changes" comment="before delete xml">
-      <change beforePath="$PROJECT_DIR$/how-to-setup.md" beforeDir="false" afterPath="$PROJECT_DIR$/how-to-setup.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContextMVC.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/makeev/springmvc/controllers/FirstController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/makeev/springmvc/controllers/SecondController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/calcPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/exit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/goodByPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/helloPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/modelPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/how-to-setup.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/makeev/springmvc/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/helloPage.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,15 +32,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="java-config" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,18 +61,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "f578263d244d3d683c45830f33d2a8b2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.web.browsers&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;f578263d244d3d683c45830f33d2a8b2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first" />
+    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.makeev.springmvc.config" />
     </key>
@@ -72,7 +89,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Tomcat_9_0_64" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.64" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="START_JAVASCRIPT_DEBUGGER" value="true" />
+      <option name="OPEN_IN_BROWSER" value="false" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="ali_spring_mvc:war exploded">
@@ -159,6 +176,10 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="HTTP Request.generated-requests | #1" />
+      <item itemvalue="Tomcat Server.Tomcat_9_0_64" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="HTTP Request.generated-requests | #1" />
@@ -176,6 +197,10 @@
       <workItem from="1655210227656" duration="1278000" />
       <workItem from="1655211710017" duration="3031000" />
       <workItem from="1655223173180" duration="5321000" />
+      <workItem from="1655237940753" duration="367000" />
+      <workItem from="1655238391329" duration="2228000" />
+      <workItem from="1655269334906" duration="939000" />
+      <workItem from="1655294767135" duration="15439000" />
     </task>
     <task id="LOCAL-00001" summary="tomcat">
       <created>1655211678785</created>
